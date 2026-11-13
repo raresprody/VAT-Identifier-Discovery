@@ -1,0 +1,20 @@
+# large downloads stay local
+data/raw/*
+!data/raw/.gitkeep
+*.zip
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# os and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

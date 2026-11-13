@@ -1,0 +1,199 @@
+SELECT COUNT(*) FROM '/Users/rares_prody/Downloads/BasicCompanyDataAsOneFile-2026-11-01.csv';
+┌────────────────┐
+│  count_star()  │
+│     int64      │
+├────────────────┤
+│    5711779     │
+│ (5.71 million) │
+└────────────────┘
+
+DESCRIBE SELECT * FROM '/Users/rares_prody/Downloads/BasicCompanyDataAsOneFile-2026-11-01.csv';
+┌───────────────────────────────────────────────────────────────────────┐
+│ /Users/rares_prody/Downloads/BasicCompanyDataAsOneFile-2026-11-01.csv │
+│                                                                       │
+│ CompanyName                                                   varchar │
+│ CompanyNumber                                                 varchar │
+│ RegAddress.CareOf                                             varchar │
+│ RegAddress.POBox                                              varchar │
+│ RegAddress.AddressLine1                                       varchar │
+│ RegAddress.AddressLine2                                       varchar │
+│ RegAddress.PostTown                                           varchar │
+│ RegAddress.County                                             varchar │
+│ RegAddress.Country                                            varchar │
+│ RegAddress.PostCode                                           varchar │
+│ CompanyCategory                                               varchar │
+│ CompanyStatus                                                 varchar │
+│ CountryOfOrigin                                               varchar │
+│ DissolutionDate                                               varchar │
+│ IncorporationDate                                             date    │
+│ Accounts.AccountRefDay                                        bigint  │
+│ Accounts.AccountRefMonth                                      bigint  │
+│ Accounts.NextDueDate                                          date    │
+│ Accounts.LastMadeUpDate                                       date    │
+│ Accounts.AccountCategory                                      varchar │
+│ Returns.NextDueDate                                           date    │
+│ Returns.LastMadeUpDate                                        date    │
+│ Mortgages.NumMortCharges                                      bigint  │
+│ Mortgages.NumMortOutstanding                                  bigint  │
+│ Mortgages.NumMortPartSatisfied                                bigint  │
+│ Mortgages.NumMortSatisfied                                    bigint  │
+│ SICCode.SicText_1                                             varchar │
+│ SICCode.SicText_2                                             varchar │
+│ SICCode.SicText_3                                             varchar │
+│ SICCode.SicText_4                                             varchar │
+│ LimitedPartnerships.NumGenPartners                            bigint  │
+│ LimitedPartnerships.NumLimPartners                            bigint  │
+│ URI                                                           varchar │
+│ PreviousName_1.CONDATE                                        date    │
+│ PreviousName_1.CompanyName                                    varchar │
+│ PreviousName_2.CONDATE                                        date    │
+│ PreviousName_2.CompanyName                                    varchar │
+│ PreviousName_3.CONDATE                                        date    │
+│ PreviousName_3.CompanyName                                    varchar │
+│ PreviousName_4.CONDATE                                        date    │
+│ PreviousName_4.CompanyName                                    varchar │
+│ PreviousName_5.CONDATE                                        date    │
+│ PreviousName_5.CompanyName                                    varchar │
+│ PreviousName_6.CONDATE                                        date    │
+│ PreviousName_6.CompanyName                                    varchar │
+│ PreviousName_7.CONDATE                                        date    │
+│ PreviousName_7.CompanyName                                    varchar │
+│ PreviousName_8.CONDATE                                        date    │
+│ PreviousName_8.CompanyName                                    varchar │
+│ PreviousName_9.CONDATE                                        date    │
+│ PreviousName_9.CompanyName                                    varchar │
+│ PreviousName_10.CONDATE                                       varchar │
+│ PreviousName_10.CompanyName                                   varchar │
+│ ConfStmtNextDueDate                                           date    │
+│ ConfStmtLastMadeUpDate                                        date    │
+└───────────────────────────────────────────────────────────────────────┘
+
+(END)
+│ PreviousName_1.CompanyName                                    varchar │
+│ PreviousName_2.CONDATE                                        date    │
+│ PreviousName_2.CompanyName                                    varchar │
+│ PreviousName_3.CONDATE                                        date    │
+│ PreviousName_3.CompanyName                                    varchar │
+│ PreviousName_4.CONDATE                                        date    │
+│ PreviousName_4.CompanyName                                    varchar │
+│ PreviousName_5.CONDATE                                        date    │
+│ PreviousName_5.CompanyName                                    varchar │
+│ PreviousName_6.CONDATE                                        date    │
+│ PreviousName_6.CompanyName                                    varchar │
+│ PreviousName_7.CONDATE                                        date    │
+│ PreviousName_7.CompanyName                                    varchar │
+│ PreviousName_8.CONDATE                                        date    │
+│ PreviousName_8.CompanyName                                    varchar │
+│ PreviousName_9.CONDATE                                        date    │
+│ PreviousName_9.CompanyName                                    varchar │
+│ PreviousName_10.CONDATE                                       varchar │
+│ PreviousName_10.CompanyName                                   varchar │
+│ ConfStmtNextDueDate                                           date    │
+│ ConfStmtLastMadeUpDate                                        date    │
+└───────────────────────────────────────────────────────────────────────┘
+
+(END)
+│ PreviousName_1.CompanyName                                    varchar │
+│ PreviousName_2.CONDATE                                        date    │
+│ PreviousName_2.CompanyName                                    varchar │
+│ PreviousName_3.CONDATE                                        date    │
+│ PreviousName_3.CompanyName                                    varchar │
+│ PreviousName_4.CONDATE                                        date    │
+│ PreviousName_4.CompanyName                                    varchar │
+│ PreviousName_5.CONDATE                                        date    │
+│ PreviousName_5.CompanyName                                    varchar │
+│ PreviousName_6.CONDATE                                        date    │
+│ PreviousName_6.CompanyName                                    varchar │
+│ PreviousName_7.CONDATE                                        date    │
+│ PreviousName_7.CompanyName                                    varchar │
+│ PreviousName_8.CONDATE                                        date    │
+│ PreviousName_8.CompanyName                                    varchar │
+│ PreviousName_9.CONDATE                                        date    │
+│ PreviousName_9.CompanyName                                    varchar │
+│ PreviousName_10.CONDATE                                       varchar │
+│ PreviousName_10.CompanyName                                   varchar │
+│ ConfStmtNextDueDate                                           date    │
+│ ConfStmtLastMadeUpDate                                        date    │
+└───────────────────────────────────────────────────────────────────────┘
+
+memory D CREATE VIEW ch as SELECT * FROM '/Users/rares_prody/Downloads/BasicCompanyDataAsOneFile-2026-11-01.csv';
+memory D SELECT CompanyStatus, COUNT(*) as n from ch GROUP BY 1 ORDER BY n DESC;
+
+┌──────────────────────────────────────────────────┬─────────┐
+│                  CompanyStatus                   │    n    │
+│                     varchar                      │  int64  │
+├──────────────────────────────────────────────────┼─────────┤
+│ Active                                           │ 5179256 │
+│ Active - Proposal to Strike off                  │  417325 │
+│ Liquidation                                      │  107871 │
+│ In Administration                                │    3707 │
+│ Live but Receiver Manager on at least one charge │    2169 │
+│ Voluntary Arrangement                            │     583 │
+│ In Administration/Administrative Receiver        │     396 │
+│ RECEIVERSHIP                                     │     182 │
+│ ADMINISTRATION ORDER                             │     121 │
+│ ADMINISTRATIVE RECEIVER                          │     105 │
+│ In Administration/Receiver Manager               │      52 │
+│ RECEIVER MANAGER / ADMINISTRATIVE RECEIVER       │      10 │
+│ VOLUNTARY ARRANGEMENT / ADMINISTRATIVE RECEIVER  │       1 │
+│ VOLUNTARY ARRANGEMENT / RECEIVER MANAGER         │       1 │
+└──────────────────────────────────────────────────┴─────────┘
+  14 rows                                          2 columns
+memory D SELECT CompanyCategory, COUNT(*) AS n FROM ch GROUP BY 1 ORDER BY n DESC;
+┌────────────────────────────────────────────────────────────────────┬─────────┐
+│                          CompanyCategory                           │    n    │
+│                              varchar                               │  int64  │
+├────────────────────────────────────────────────────────────────────┼─────────┤
+│ Private Limited Company                                            │ 5283363 │
+│ PRI/LTD BY GUAR/NSC (Private, limited by guarantee, no share capi… │  118835 │
+│ Limited Partnership                                                │   61162 │
+│ Limited Liability Partnership                                      │   49867 │
+│ Community Interest Company                                         │   45753 │
+│ Charitable Incorporated Organisation                               │   40988 │
+│ PRI/LBG/NSC (Private, Limited by guarantee, no share capital, use… │   35720 │
+│ Overseas Entity                                                    │   30166 │
+│ Other company type                                                 │   15499 │
+│ Registered Society                                                 │   10770 │
+│ Scottish Charitable Incorporated Organisation                      │    8033 │
+│ Private Unlimited Company                                          │    4724 │
+│ Public Limited Company                                             │    4470 │
+│ Royal Charter Company                                              │     910 │
+│ Investment Company with Variable Capital                           │     642 │
+│ United Kingdom Economic Interest Grouping                          │     263 │
+│ Scottish Partnership                                               │     238 │
+│ Industrial and Provident Society                                   │     159 │
+│ Private Unlimited                                                  │      82 │
+│ Investment Company with Variable Capital(Umbrella)                 │      67 │
+│ Old Public Company                                                 │      30 │
+│ PRIV LTD SECT. 30 (Private limited company, section 30 of the Com… │      15 │
+│ Investment Company with Variable Capital (Securities)              │       8 │
+│ United Kingdom Societas                                            │       6 │
+│ Other Company Type                                                 │       3 │
+│ Protected Cell Company                                             │       3 │
+│ Further Education and Sixth Form College Corps                     │       2 │
+│ Converted/Closed                                                   │       1 │
+└────────────────────────────────────────────────────────────────────┴─────────┘
+  28 rows                                                            2 columns
+memory D SELECT "Accounts.AccountCategory", COUNT(*) AS n FROM ch GROUP BY 1 ORDER BY n DESC;
+┌─────────────────────────────┬─────────┐
+│  Accounts.AccountCategory   │    n    │
+│           varchar           │  int64  │
+├─────────────────────────────┼─────────┤
+│ MICRO ENTITY                │ 1877415 │
+│ NO ACCOUNTS FILED           │ 1465114 │
+│ TOTAL EXEMPTION FULL        │ 1340780 │
+│ DORMANT                     │  623597 │
+│ UNAUDITED ABRIDGED          │  165563 │
+│ FULL                        │   86629 │
+│ SMALL                       │   67742 │
+│ AUDIT EXEMPTION SUBSIDIARY  │   35837 │
+│ GROUP                       │   28354 │
+│ TOTAL EXEMPTION SMALL       │    8816 │
+│ MEDIUM                      │    6450 │
+│ ACCOUNTS TYPE NOT AVAILABLE │    3786 │
+│ AUDITED ABRIDGED            │    1132 │
+│ FILING EXEMPTION SUBSIDIARY │     538 │
+│ PARTIAL EXEMPTION           │      23 │
+│ INITIAL                     │       3 │
+└─────────────────────────────┴─────────┘
+
