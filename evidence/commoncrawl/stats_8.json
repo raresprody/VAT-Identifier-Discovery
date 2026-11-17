@@ -1,0 +1,11 @@
+{
+  "file_index": 8,
+  "path": "crawl-data/CC-MAIN-2026-43/segments/1791170054748.82/wet/CC-MAIN-20261013085934-20261013115934-00706.warc.wet.gz",
+  "pages": 21371,
+  "uk_pages": 467,
+  "pages_with_vat_shape": 47,
+  "pages_with_valid_vat": 46,
+  "pages_with_both": 29,
+  "seconds": 3.5,
+  "hit_rows": 29
+}

@@ -1,0 +1,21 @@
+vat_number,company_number,ch_name,ch_postcode,example_page,hmrc_name,hmrc_postcode,checked_on,companies_with_same_name,decision
+851226249,04983326,CARTRIDGE SAVE LIMITED,SK5 7SS,https://www.cartridgesave.co.uk/cn626ae.html,CARTRIDGE SAVE LIMITED,SK5 7SS,,1,tier A
+828628887,04450573,T.I. THERMAL IMAGING LIMITED,RH4 1XA,https://www.thermalimaging.ae/detecting-hotspots-in-ev-chargers-with-flir-thermal-imaging-cameras-in-uae/a700/,T I THERMAL IMAGING LTD,RH4 1XA,2026-11-17,1,tier A
+211948907,09310718,LUGGAGE SUPERSTORE LIMITED,NW11 0PU,https://www.luggagesuperstore.co.uk/american-tourister-summer-pop-3-piece-luggage-set/,LUGGAGE SUPERSTORE LIMITED,EN6 3JN,2026-11-17,1,tier B
+945631215,06706816,MUSTARD MARKET RESEARCH LTD,M2 2JG,https://mustard-research.com/cultural-relevance-isnt-luck-insight-led/,CIRL HOLDINGS LTD,M2 2JG,2026-11-17,1,reject: different company
+768191493,06001594,INDUSTRY PEOPLE (UK) LIMITED,M4 1FS,https://industrycasting.co.uk/boohoo-christmas-tv-commercial/,INDUSTRY PEOPLE (UK) LTD,M4 1FS,2026-11-17,1,tier A
+580157934,09680718,THE MAE DELI LIMITED,BH2 5LT,https://www.deliciouslyella.com/en-us/wellness/strength/total-body-resistance,HERO UK FOODS LIMITED,BH2 5LT,2026-11-17,1,reject: different company
+281394977,10976105,GLADE CONSULTING SERVICES LTD,S2 3QE,https://www.gladecs.co.uk/iso-27001-certification/,GLADE CONSULTING SERVICES LTD,S9 5AB,2026-11-17,1,tier B
+337047407,09640574,KAPOW PRIMARY LIMITED,GL51 0UX,https://www.kapowprimary.com/subjects/geography/key-stage-2/year-3/who-lives-in-antarctica/lesson-6-how-did-our-expedition-go/,KAPOW PRIMARY LIMITED,GL51 0UX,2026-11-17,1,tier A
+282429881,09833337,N H GLOBAL (UK) LIMITED,B18 7AD,https://kimetals.co.uk/materials/bright-mild-steel/bright-mild-round-bar/kim43339,N H GLOBAL (UK) LIMITED,B18 7AD,2026-11-17,1,tier A
+442000263,07314708,HOMEWARD LEGAL LIMITED,MK5 8FR,https://bestvalueconveyancing.co.uk/tag/self-build/,HOMEWARD LEGAL LIMITED,MK5 8FR,2026-11-17,1,tier A
+743492912,SC129794,MCSENCE LIMITED,EH22 5TA,https://www.mcsence.co.uk/property/commercial-property-rental/,MCSENCE WORKSPACE LIMITED,EH22 5TA,2026-11-17,1,reject: different company
+481886248,09941173,DIGINOMICS LIMITED,E18 2PP,https://cardbazaar.co.uk/cart/,DIGINOMICS LIMITED,E18 2PP,2026-11-17,1,tier A
+443617257,04514520,WADSWORTHS SOLICITORS LTD,B90 3BL,https://www.wadsworthslaw.co.uk/b3m_testimonial_tag/deed-of-variation/,WADSWORTHS SOLICITORS LIMITED,B90 3BL,2026-11-17,1,tier A
+628289505,02855561,MANE CONTRACT SERVICES LIMITED,WD25 7GS,https://www.mane.co.uk/resources/blog/warrior-production-contract-could-boost-uk-economy-by-1-billion/,MANE CONTRACT SERVICES,WD25 7GS,2026-11-17,1,reject: different company
+424984623,11187289,THE LAW FIRM GROUP LTD,KT23 4AA,https://thelawfirm.group/specialist-area/north-walsham-probate-solicitor,THE LAW FIRM GROUP LTD,KT23 4AA,2026-11-17,1,tier A
+140164748,08170661,WICKED COATINGS LIMITED,BH16 6LT,https://www.wickedcoatings.co.uk/camo-dipping-uk/,WICKED COATINGS LIMITED,BH16 6LT,2026-11-17,1,tier A
+341166328,11298365,BREAKLINE LTD,GU1 4AR,https://www.breaklineagency.com/seo-agency/quincy-massachusetts/,BREAKLINE LTD,GU1 4AR,2026-11-17,1,tier A
+179910076,07612652,ECCLESTON HOMES LIMITED,WA3 6YF,https://www.ecclestonhomes.co.uk/map-location/christy-brow-plot-14/?mpfy-pin=7075,ECCLESTON HOMES LIMITED,WA3 6FW,2026-11-17,1,tier B
+205738316,08483794,JUST GERMAN PARTS LIMITED,PR5 6EW,https://justgermanparts.co.uk/product/exile-motorsport-50mm-fuel-filter-mounting-bracket-billet-aluminium-black/,JUST GERMAN PARTS LIMITED,PR5 6EW,2026-11-17,1,tier A
+883472589,04500423,ESSENTIAL ITALY LIMITED,CB22 3JH,https://www.essentialitaly.co.uk/flights-to-italy,ESSENTIAL ITALY LIMITED,CB4 1AJ,2026-11-17,1,tier B
