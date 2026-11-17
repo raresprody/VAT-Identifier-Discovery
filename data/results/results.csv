@@ -1,0 +1,57 @@
+check_set,company_number,company_name,stratum,source,vat_candidate,hmrc_name,hmrc_postcode,ch_postcode,companies_with_same_name,companies_at_ch_postcode,decision,notes
+exploration,01088788,VENTAQUEST DEVELOPMENTS LIMITED,dormant,website,,,,SW3 1RT,1,84,not found,No website found
+exploration,06330132,GETTHELABEL.COM LIMITED,dormant,own website,GB438752270,TOPGRADE SPORTSWEAR LTD,NG20 8RY,NG20 8RY,1,474,reject: different company,Number belongs to another group company at the same address; Endole shows no number for this company
+exploration,03005523,KILMARNOCK SPECSAVERS LIMITED,subsidiary,website,,,,PO15 7PA,1,1636,not found,"Website belongs to the Specsavers brand, no VAT number for this company"
+exploration,08120704,ADORE GOLF LIMITED,small,endole,GB140488125,ADORE GOLF LIMITED,NE35 9PE,NE35 9PE,1,91,tier A,Not shown on the company's own website
+exploration,04536315,ACADEMY PHOTOS LIMITED,small,website,,,,SW9 8LF,1,9,not found,
+exploration,07840778,DESWIK EUROPE LIMITED,large,endole,GB128277402,DESWIK EUROPE LTD,W12 7FQ,HP9 2JH,1,331,tier B,Not on own website. Companies House address is the accountant's (C/O Azets)
+exploration,SC871464,SUPER HAND CAR WASH 1 LTD,new,website,,,,DD1 5JH,1,14,not found,No website
+exploration,09593501,BRAFIELD SOLAR LIMITED,large,website,,,,W1G 9DQ,1,358,not found,No website
+exploration,17008655,AI DIGITAL MARKETING HUB LIMITED,new,website,,,,B42 2LX,1,193,not found,"Has a website, no VAT number on it"
+exploration,13266496,INN COLLECTION BIDCO 2 LIMITED,subsidiary,group website,GB179175273,INN COLLECTION TOPCO LIMITED,NE12 8BS,NE12 8BS,1,59,reject: different company,Number belongs to the group's Topco. 31 'Inn Collection' companies share NE12 8BS. rapidfuzz ratio 86.2
+endole_every5th,04334430,CORPORATE & CHANCERY NOMINEES LIMITED,dormant,endole,,,,W1W 5PF,1,37031,not found,
+endole_every5th,06995471,HOMELAND FILMS LIMITED,dormant,endole,,,,SA15 3YE,1,78,not found,
+endole_every5th,10063659,INTELLISPACE LTD,dormant,endole,GB269779034,INTELLISPACE LTD,N1 7GU,N1 7GU,1,36097,tier A,Dormant at Companies House but VAT registration still active at HMRC
+endole_every5th,11339470,D L TREES AND GARDENS LTD,dormant,endole,,,,CM15 9SG,1,179,not found,
+endole_every5th,12334680,PENBROOK BOOKKEEPING LIMITED,dormant,endole,,,,HG4 5AE,1,50,not found,
+endole_every5th,13521228,JSSP STAFFING SERVICES LTD,dormant,endole,,,,SL1 2XG,1,5,not found,
+endole_every5th,14727035,AC WALKERS LTD,dormant,endole,,,,RG14 1JG,1,20,not found,
+endole_every5th,15517811,RENT MY TRAILER LTD,dormant,endole,,,,PO14 4FG,1,2,not found,
+endole_every5th,16413788,AH F2 LIMITED,dormant,endole,,,,HA1 1BQ,1,1686,not found,
+endole_every5th,SC585443,HANNIGAN PROPERTIES LTD,dormant,endole,,,,FK5 4HF,1,2,not found,
+endole_every5th,01082908,ROTHSCHILD & CO HOLDINGS LIMITED,large,endole,,,,EC4N 8AL,1,441,not found,
+endole_every5th,02366970,E.ON UK LIMITED,large,endole,,,,NG1 4BX,1,52,not found,
+endole_every5th,04236500,FOCUSEDUCATION (LINCOLNSHIRE) LIMITED,large,endole,,,,M1 4HB,1,93,not found,
+endole_every5th,05415274,NANDO'S FINANCE LIMITED,large,endole,,,,SW11 3LD,1,22,not found,
+endole_every5th,07389895,URBANEST UK CAMLEY STREET GP1 LIMITED,large,endole,,,,WC2N 4AZ,1,65,not found,
+endole_every5th,08583064,GRIF045 LIMITED,large,endole,,,,EC2Y 5AU,1,1291,not found,
+endole_every5th,09593501,BRAFIELD SOLAR LIMITED,large,endole,,,,W1G 9DQ,1,358,not found,
+endole_every5th,11994089,HH DEVELOPMENT GROUP LIMITED,large,endole,GB320932626,HH DEVELOPMENT GROUP LIMITED,B90 4LH,B90 4BN,1,270,tier B,First recorded the company number 11994089 by mistake; it fails the checksum
+endole_every5th,14251287,GLP BLADE 6 LIMITED,large,endole,,,,W1F 7TU,1,119,not found,
+endole_every5th,16062608,SECOND LIEN FUNDING (SLF) NO.1 LIMITED,large,endole,,,,E14 5HU,1,2658,not found,
+endole_every5th,16425012,TA INVEST LTD,new,endole,,,,PR7 1HP,1,273,not found,
+endole_every5th,16648753,LDSS CONSULTING LIMITED,new,endole,,,,BH15 1QG,1,125,not found,
+endole_every5th,16872473,TOPNOTCHDETAILS LTD,new,endole,,,,E1 5FQ,1,8,not found,
+endole_every5th,16931301,MAYFAIR CHOCOLATE HOUSE LTD,new,endole,,,,NW6 4JD,1,31,not found,
+endole_every5th,17008655,AI DIGITAL MARKETING HUB LIMITED,new,endole,,,,B42 2LX,1,193,not found,
+endole_every5th,17255790,A2Z PET SERVICES LTD,new,endole,,,,W10 6DU,1,23,not found,
+endole_every5th,17347630,DJ CARPENTRY AND JOINERY LTD,new,endole,,,,SS8 0NB,1,3,not found,
+endole_every5th,17419619,GEMREYDISTRIBUTIONS LTD,new,endole,,,,SL2 3DX,1,8,not found,
+endole_every5th,17535349,KELVOWERA LTD,new,endole,,,,B42 1QA,1,10,not found,Company not found on Endole
+endole_every5th,SC896711,DIEGO SMILE CENTRE LTD,new,endole,,,,AB42 1BS,1,5,not found,
+endole_every5th,03871096,16 SOTHEBY ROAD MANAGEMENT LIMITED,small,endole,,,,N5 2UR,1,6,not found,
+endole_every5th,07512105,NSOURCES PEOPLE LIMITED,small,endole,GB106566322,NSOURCES PEOPLE LIMITED,RM1 1BW,RM1 1BW,1,35,tier A,
+endole_every5th,08833438,WHATWHENWHYHOW LIMITED,small,endole,,,,WR1 1RU,1,236,not found,
+endole_every5th,10202395,PENDRY MORTGAGE SOLUTIONS LIMITED,small,endole,,,,HP23 5AL,1,192,not found,
+endole_every5th,10880184,NITRACON LIMITED,small,endole,GB432264616,NITRACON LIMITED,SE9 1TD,SE9 1TD,1,113,tier A,Endole: compulsory strike-off discontinued about a month ago
+endole_every5th,12386651,MARINE AND CIVIL DIVING SERVICES LTD,small,endole,GB356549955,MARINE AND CIVIL DIVING SERVICES LTD,N21 1PA,ME2 4UY,1,106,tier B,
+endole_every5th,14266913,CADLUX DESIGN LTD,small,endole,GB422795680,CADLUX DESIGN LTD,SK15 3FN,BH21 7SB,1,2741,tier B,Companies House address is the accountant's (C/O SG Accounting)
+endole_every5th,14858698,ADWMG LTD,small,endole,GB467777134,ADWMG LTD,WC2H 9JQ,WC2H 9JQ,1,89012,tier A,
+endole_every5th,15660311,WIRRAL CAR & VAN CENTRE LTD,small,endole,,,,SY10 9AZ,1,2,not found,
+endole_every5th,SC770580,SHIFA LIMITED,small,endole,,,,G41 5BJ,1,4,not found,
+endole_every5th,02991666,A-GAS ELECTRONIC MATERIALS LIMITED,subsidiary,endole,,,,BS20 7XH,1,7,not found,
+endole_every5th,03612207,RKH GROUP LIMITED,subsidiary,endole,,,,EC3A 5AF,1,89,not found,
+endole_every5th,06480375,SPIRE THAMES VALLEY HOSPITAL PROPCO LIMITED,subsidiary,endole,,,,EC4Y 8EN,1,434,not found,
+endole_every5th,07852401,0290 BROADCLOSE PETERLEE (FREEHOLDCO) LIMITED,subsidiary,endole,,,,NG20 8RY,1,474,not found,
+endole_every5th,11790798,DALGETY BAY SPECSAVERS LIMITED,subsidiary,endole,,,,PO15 7PA,1,1636,not found,
+endole_every5th,13815321,CREF3 UKI PETERWOOD WAY F LTD,subsidiary,endole,,,,W1U 8EQ,1,90,not found,

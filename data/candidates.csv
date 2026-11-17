@@ -1,0 +1,57 @@
+company_number,check_set,source,vat_candidate,checked_on,notes
+01088788,exploration,website,,2026-11-16,No website found
+06330132,exploration,own website,GB438752270,2026-11-16,Number belongs to another group company at the same address; Endole shows no number for this company
+03005523,exploration,website,,2026-11-16,"Website belongs to the Specsavers brand, no VAT number for this company"
+08120704,exploration,endole,GB140488125,2026-11-16,Not shown on the company's own website
+04536315,exploration,website,,2026-11-16,
+07840778,exploration,endole,GB128277402,2026-11-16,Not on own website. Companies House address is the accountant's (C/O Azets)
+SC871464,exploration,website,,2026-11-16,No website
+09593501,exploration,website,,2026-11-16,No website
+17008655,exploration,website,,2026-11-16,"Has a website, no VAT number on it"
+13266496,exploration,group website,GB179175273,2026-11-16,Number belongs to the group's Topco. 31 'Inn Collection' companies share NE12 8BS. rapidfuzz ratio 86.2
+04334430,endole_every5th,endole,,2026-11-17,
+06995471,endole_every5th,endole,,2026-11-17,
+10063659,endole_every5th,endole,GB269779034,2026-11-17,Dormant at Companies House but VAT registration still active at HMRC
+11339470,endole_every5th,endole,,2026-11-17,
+12334680,endole_every5th,endole,,2026-11-17,
+13521228,endole_every5th,endole,,2026-11-17,
+14727035,endole_every5th,endole,,2026-11-17,
+15517811,endole_every5th,endole,,2026-11-17,
+16413788,endole_every5th,endole,,2026-11-17,
+SC585443,endole_every5th,endole,,2026-11-17,
+01082908,endole_every5th,endole,,2026-11-17,
+02366970,endole_every5th,endole,,2026-11-17,
+04236500,endole_every5th,endole,,2026-11-17,
+05415274,endole_every5th,endole,,2026-11-17,
+07389895,endole_every5th,endole,,2026-11-17,
+08583064,endole_every5th,endole,,2026-11-17,
+09593501,endole_every5th,endole,,2026-11-17,
+11994089,endole_every5th,endole,GB320932626,2026-11-17,First recorded the company number 11994089 by mistake; it fails the checksum
+14251287,endole_every5th,endole,,2026-11-17,
+16062608,endole_every5th,endole,,2026-11-17,
+16425012,endole_every5th,endole,,2026-11-17,
+16648753,endole_every5th,endole,,2026-11-17,
+16872473,endole_every5th,endole,,2026-11-17,
+16931301,endole_every5th,endole,,2026-11-17,
+17008655,endole_every5th,endole,,2026-11-17,
+17255790,endole_every5th,endole,,2026-11-17,
+17347630,endole_every5th,endole,,2026-11-17,
+17419619,endole_every5th,endole,,2026-11-17,
+17535349,endole_every5th,endole,,2026-11-17,Company not found on Endole
+SC896711,endole_every5th,endole,,2026-11-17,
+03871096,endole_every5th,endole,,2026-11-17,
+07512105,endole_every5th,endole,GB106566322,2026-11-17,
+08833438,endole_every5th,endole,,2026-11-17,
+10202395,endole_every5th,endole,,2026-11-17,
+10880184,endole_every5th,endole,GB432264616,2026-11-17,Endole: compulsory strike-off discontinued about a month ago
+12386651,endole_every5th,endole,GB356549955,2026-11-17,
+14266913,endole_every5th,endole,GB422795680,2026-11-17,Companies House address is the accountant's (C/O SG Accounting)
+14858698,endole_every5th,endole,GB467777134,2026-11-17,
+15660311,endole_every5th,endole,,2026-11-17,
+SC770580,endole_every5th,endole,,2026-11-17,
+02991666,endole_every5th,endole,,2026-11-17,
+03612207,endole_every5th,endole,,2026-11-17,
+06480375,endole_every5th,endole,,2026-11-17,
+07852401,endole_every5th,endole,,2026-11-17,
+11790798,endole_every5th,endole,,2026-11-17,
+13815321,endole_every5th,endole,,2026-11-17,

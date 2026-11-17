@@ -1,35 +1,41 @@
 # UK VAT Identifier Discovery
 
-Status: work in progress. Started 2026-11-12.
-
-## The question
-
-Can a dataset of UK company VAT numbers be built from the open web, and what does it cost in coverage, accuracy and money? HMRC confirms a VAT number you already have. It does not tell you a company's number.
-
 ## Short answer
 
-<!-- Write this last. Three or four sentences a busy reader can act on:
-     for which companies it works, with what coverage and false-positive rate, on what sample, and where it stops working. -->
+<!-- Write last. 3-4 sentences: can it be done, for which companies, what coverage and error rate on what sample, where it stops working. -->
+
+## How to reproduce
+
+Python 3.14 and the DuckDB command-line tool.
+
+```
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python -m pytest
+.venv/bin/python src/run.py
+```
+
+`src/run.py` reads the companies I checked (`data/candidates.csv`) and HMRC's answers as I recorded them from the gov.uk checker (`data/hmrc_recorded.csv`), applies the matching rule in `src/match.py`, and writes `data/results/results.csv` and `data/results/summary.md`.
+
+To query HMRC live instead, put production credentials for the "Check a UK VAT number" API in `.env` (see `.env.example`) and run `src/run.py --hmrc api`. Each answer is saved under `evidence/hmrc/`.
+
+To re-draw the sample, download the Companies House snapshot (BasicCompanyDataAsOneFile-2026-11-01) from https://download.companieshouse.gov.uk/en_output.html, unzip it into `data/raw/`, then run `duckdb < src/draw_sample.sql`. The output should be identical to the committed `data/sample_230.csv`.
 
 ## Repo layout
 
 ```
-README.md              this document (the deliverable)
-docs/decision-log.md   dated journal: what I tried, what came back, what I decided
-docs/definitions.md    what "found", "confirmed" and "false positive" mean here
-docs/hypotheses.md     every source idea, tested or not, with its status
-docs/dead-ends.md      sources that failed, with the reason and the evidence
-docs/sampling.md       how the sample was drawn
-evidence/              raw outputs behind every number in this document
-data/sample/           the sample itself
-data/results/          outputs of the proof of concept
-data/raw/              large downloads, not committed
-src/                   code
+src/draw_sample.sql        draws the 230-company sample from Companies House
+src/match.py               the rule deciding whether a VAT number belongs to a company
+src/hmrc.py                HMRC "Check a UK VAT number" API client
+src/run.py                 applies the rule to every candidate and writes the results
+tests/test_match.py        the rule tested on the real cases from the manual checks
+data/sample_230.csv        the sample
+data/candidates.csv        what I found for each company checked, and where
+data/hmrc_recorded.csv     HMRC's answer for each number found
+data/ch_context.csv        per sampled company: companies sharing its name and its postcode
+data/results/              outputs of src/run.py
+evidence/                  raw outputs behind the numbers in this document
 ```
-
-## How to reproduce
-
-<!-- Exact commands, in order. Python version, how to get the input data, what credentials are needed. -->
 
 ## Part 1: Research
 
@@ -43,37 +49,27 @@ src/                   code
 
 ### Dead ends
 
-<!-- Summary here, full write-ups in docs/dead-ends.md. -->
-
 ## Part 2: Proof of concept
 
 ### Sample
 
-<!-- How it was drawn and why it is representative. Details in docs/sampling.md. -->
-
 ### Method
 
-### Verification against HMRC
-
-<!-- How every reported number was checked, and how "valid number" was separated from "this company's number". -->
+### Matching rule
 
 ### Results
-
-| Metric | Value | n | Interval | How measured |
-|---|---|---|---|---|
-|  |  |  |  |  |
 
 ### What these numbers don't capture
 
 ## Part 3: With real resources
 
-### What changes with a budget
+### What I would do
 
 ### Cost per company
 
 ### What breaks first
 
-### What I'd monitor in production
+### What I would monitor
 
 ## Debate topics
 
@@ -85,10 +81,4 @@ src/                   code
 
 ### Sources I would not use in a product
 
-## Beyond the UK
-
-<!-- Optional. One country compared properly against the UK. -->
-
 ## How I used AI tools
-
-<!-- The brief allows them. Say plainly what you used them for and which decisions were yours. -->

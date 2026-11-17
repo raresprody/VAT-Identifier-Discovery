@@ -1,0 +1,7 @@
+stratum
+dormant       50
+large         50
+new           50
+small         50
+subsidiary    30
+reproducibility check vs data/sample_230.csv: IDENTICAL (230/230 company numbers match)
